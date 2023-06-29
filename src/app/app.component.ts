@@ -6,6 +6,7 @@ import { BtnComponent } from './shared/components/btn.component';
 import { BtnSoftComponent } from './shared/components/btn-soft.component';
 import { BtnGhostComponent } from './shared/components/btn-ghost.component';
 import { CardComponent } from './shared/components/card.component';
+import { DashboardLayout } from './layout/dashboard.layout';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,7 @@ import { CardComponent } from './shared/components/card.component';
     BtnSoftComponent,
     BtnGhostComponent,
     CardComponent,
+    DashboardLayout,
   ],
 })
 export class AppComponent {

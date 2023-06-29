@@ -11,7 +11,7 @@ import { MatRippleModule } from '@angular/material/core';
       type="button"
       matRipple
       matRippleColor="rgba(255, 255, 255, 0.3)"
-      class="w-full inline-flex justify-center items-center gap-2 rounded-md b font-medium outline-none transition-all"
+      class="w-full inline-flex justify-center items-center gap-2 rounded-md b  outline-none transition-all"
       [ngClass]="colors"
     >
       <!--inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold focus:outline-none transition-all -->
@@ -37,29 +37,25 @@ export class BtnGhostComponent {
 
   mapColors: Record<Color, Record<string, boolean>> = {
     primary: {
-      'text-primary-500': true,
-      'hover:bg-primary-100': true,
-      'text-white': true,
+      'hover:bg-primary-400': true,
+      'hover:text-white': true,
     },
     secondary: {
-      'text-secondary-500': true,
-      'hover:bg-secondary-100': true,
-      'text-white': true,
+      'hover:bg-secondary-400': true,
+      'hover:text-white': true,
     },
     success: {
-      'text-success-500': true,
-      'hover:bg-success-100': true,
-      'text-white': true,
+      'hover:bg-success-400': true,
+      'hover:text-white': true,
     },
     danger: {
-      'text-danger-500': true,
-      'hover:bg-danger-100': true,
-      'text-white': true,
+      'hover:bg-danger-400': true,
+      'hover:text-white': true,
     },
     ligth: {
-      'text-gray-500': true,
-      'hover:bg-gray-100': true,
-      'text-white': true,
+      'text-slate-700': true,
+      'hover:bg-slate-200': true,
+      'hover:text-slate-700': true,
     },
   };
 
